@@ -1,0 +1,13 @@
+@media (min-width:350px) and (max-width:450px){
+    #news_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 330px;
+        height: 300PX;
+        width: 300px
+    }
+
+    
+
+}

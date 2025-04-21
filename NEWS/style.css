@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    scrollbar-width: none;
+}
+
+nav{
+    height: 15vh;
+    width: 100vw;
+    /* border: 2px solid; */
+    display: flex;
+   
+
+
+}
+
+#nav_1{
+    flex-basis: 20vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_1>img{
+    height: 90px;
+    width: 200px;
+}
+
+#nav_2{
+    flex-basis:80vw ;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+    gap: 20px;
+}
+
+#nav_2>input{
+    height: 40px;
+    width: 350px;
+    border-radius: 30px;
+    border: 2px solid #999;
+    outline: #4e4c4c;
+    padding-left: 15px;
+}
+#nav_2>button{
+    height: 40px;
+    width: 50px;
+    position: relative;
+    right: 70px;
+    /* border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2px solid #999; */
+    border: none;
+    background: none;
+}
+
+main{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+main>img{
+    height: 85vh;
+    width:  100vw;
+    /* filter: opacity(75%); */
+    filter: brightness(65%);
+    
+}
+
+.card_container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid #999999bc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 700ms 0s ease;
+}
+
+.card_container:hover{
+    box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+    scale: 1.02;
+}
+
+#img{
+    height: 200px;
+    width: 100%;
+    padding: 4PX 4PX;
+}
+
+#title{
+    font-size: 22px;
+    text-align: center;
+}
+
+#description{
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+#date{
+font-size: 10px;
+}
+
+#read_btn{
+    color: white;
+    background-color: royalblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    width: 350px;
+}
+
