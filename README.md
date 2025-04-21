@@ -2,9 +2,6 @@
 
 A sleek and responsive web application that fetches and displays business news articles from NewsAPI based on user search queries.
 
-## 🚀 Live Demo
-
-(You can add the Netlify or GitHub Pages link here once deployed)
 
 ## 🧰 Tech Stack
 
