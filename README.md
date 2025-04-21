@@ -22,7 +22,9 @@ A sleek and responsive web application that fetches and displays business news a
 📁 Project Structure
 
 business-news-app/
+
 │
+
 ├── index.html           # Main HTML structure  
 
 ├── style.css            # Styling for layout and components
