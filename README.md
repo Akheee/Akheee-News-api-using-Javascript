@@ -23,7 +23,11 @@ A sleek and responsive web application that fetches and displays business news a
 
 business-news-app/
 │
-├── index.html           # Main HTML structure
+├── index.html           # Main HTML structure  
+
 ├── style.css            # Styling for layout and components
+
 ├── media.css            # Responsive media queries
+
 ├── script.jsx           # JavaScript logic using NewsAPI
+
